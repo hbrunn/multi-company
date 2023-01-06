@@ -13,6 +13,10 @@
     "author": "Odoo SA, Akretion, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "depends": ["account", "base_setup"],
-    "data": ["views/account_move_views.xml", "views/res_config_settings_view.xml"],
+    "data": [
+        "data/inter_company_data.xml",
+        "views/account_move_views.xml",
+        "views/res_config_settings_view.xml",
+    ],
     "installable": True,
 }
