@@ -14,11 +14,11 @@
     "license": "AGPL-3",
     "depends": ["account", "base_setup"],
     "demo": [
-        "data/inter_company_data.xml",
-    ],
-    "data": [
         "views/account_move_views.xml",
         "views/res_config_settings_view.xml",
+    ],
+    "data": [
+        "data/inter_company_data.xml",
     ],
     "installable": True,
 }
